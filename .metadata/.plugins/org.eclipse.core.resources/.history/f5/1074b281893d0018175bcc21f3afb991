@@ -1,0 +1,12 @@
+package com.actitime.pages;
+
+public abstract class BasePage {
+
+	public void verifyTitle() { 
+		
+	}
+	
+	public void verifyElement() {
+		
+	}
+}

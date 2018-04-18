@@ -1,0 +1,399 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+  <reporter-output>
+    <line>
+      <![CDATA[Title is matching actiTIME - Login]]>
+    </line>
+    <line>
+      <![CDATA[---------]]>
+    </line>
+    <line>
+      <![CDATA[Element is present]]>
+    </line>
+    <line>
+      <![CDATA[message is matchingUsername or Password is invalid. Please try again.]]>
+    </line>
+    <line>
+      <![CDATA[-------------]]>
+    </line>
+    <line>
+      <![CDATA[Element is present]]>
+    </line>
+    <line>
+      <![CDATA[message is matchingUsername or Password is invalid. Please try again.]]>
+    </line>
+    <line>
+      <![CDATA[-------------]]>
+    </line>
+    <line>
+      <![CDATA[Element is present]]>
+    </line>
+    <line>
+      <![CDATA[message is matchingUsername or Password is invalid. Please try again.]]>
+    </line>
+    <line>
+      <![CDATA[-------------]]>
+    </line>
+    <line>
+      <![CDATA[Title is matching actiTIME - Login]]>
+    </line>
+    <line>
+      <![CDATA[Title is matching actiTIME - Enter Time-Track]]>
+    </line>
+    <line>
+      <![CDATA[Title is matching actiTIME - Task List]]>
+    </line>
+    <line>
+      <![CDATA[Element is present]]>
+    </line>
+    <line>
+      <![CDATA[Title is matching actiTIME - Login]]>
+    </line>
+    <line>
+      <![CDATA[username is :admin]]>
+    </line>
+    <line>
+      <![CDATA[password is :manager]]>
+    </line>
+    <line>
+      <![CDATA[actiTIME - Enter Time-Track]]>
+    </line>
+    <line>
+      <![CDATA[Title is matching actiTIME - Enter Time-Track]]>
+    </line>
+    <line>
+      <![CDATA[Title is matching actiTIME - Login]]>
+    </line>
+    <line>
+      <![CDATA[Title is matching actiTIME - Login]]>
+    </line>
+    <line>
+      <![CDATA[Element is present]]>
+    </line>
+    <line>
+      <![CDATA[version is matching : Actual version is actiTIME 2017.4 Expected version is actiTIME 2017.4]]>
+    </line>
+    <line>
+      <![CDATA[(build 40065)]]>
+    </line>
+    <line>
+      <![CDATA[Title is matching actiTIME - Login]]>
+    </line>
+    <line>
+      <![CDATA[Title is matching ]]>
+    </line>
+    <line>
+      <![CDATA[Element is present]]>
+    </line>
+    <line>
+      <![CDATA[Element is present]]>
+    </line>
+    <line>
+      <![CDATA[Element is present]]>
+    </line>
+    <line>
+      <![CDATA[(build 40065)]]>
+    </line>
+    <line>
+      <![CDATA[(build 40065)]]>
+    </line>
+    <line>
+      <![CDATA[bulidnum is matching Actual Build number is (build 40065) Expected B uild number is (build 40065)]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="312393" started-at="2018-04-18T13:31:05Z" finished-at="2018-04-18T13:36:17Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="312393" started-at="2018-04-18T13:31:05Z" finished-at="2018-04-18T13:36:17Z">
+      <class name="com.actitime.tests.ValidLoginLogoutTest">
+        <test-method status="PASS" signature="preCondition(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.actitime.tests.ValidLoginLogoutTest@32d2fa64]" name="preCondition" is-config="true" duration-ms="21078" started-at="2018-04-18T13:33:59Z" finished-at="2018-04-18T13:34:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://localhost:4444/wd/hub/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[http://localhost/login.do]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preCondition -->
+        <test-method status="PASS" signature="testvalidLoginLogout()[pri:0, instance:com.actitime.tests.ValidLoginLogoutTest@32d2fa64]" name="testvalidLoginLogout" duration-ms="16017" started-at="2018-04-18T13:34:20Z" finished-at="2018-04-18T13:34:36Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Title is matching actiTIME - Login]]>
+            </line>
+            <line>
+              <![CDATA[username is :admin]]>
+            </line>
+            <line>
+              <![CDATA[password is :manager]]>
+            </line>
+            <line>
+              <![CDATA[actiTIME - Enter Time-Track]]>
+            </line>
+            <line>
+              <![CDATA[Title is matching actiTIME - Enter Time-Track]]>
+            </line>
+            <line>
+              <![CDATA[Title is matching actiTIME - Login]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testvalidLoginLogout -->
+        <test-method status="PASS" signature="postCondition(org.testng.ITestResult)[pri:0, instance:com.actitime.tests.ValidLoginLogoutTest@32d2fa64]" name="postCondition" is-config="true" duration-ms="5842" started-at="2018-04-18T13:34:36Z" finished-at="2018-04-18T13:34:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testvalidLoginLogout status=SUCCESS method=ValidLoginLogoutTest.testvalidLoginLogout()[pri:0, instance:com.actitime.tests.ValidLoginLogoutTest@32d2fa64] output=Title is matching actiTIME - Login]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postCondition -->
+      </class> <!-- com.actitime.tests.ValidLoginLogoutTest -->
+      <class name="com.actitime.tests.OpenCompletedTask">
+        <test-method status="PASS" signature="preCondition(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.actitime.tests.OpenCompletedTask@436e852b]" name="preCondition" is-config="true" duration-ms="23819" started-at="2018-04-18T13:32:42Z" finished-at="2018-04-18T13:33:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://localhost:4444/wd/hub/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[http://localhost/login.do]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preCondition -->
+        <test-method status="PASS" signature="testOpenCompletedTaskTest()[pri:0, instance:com.actitime.tests.OpenCompletedTask@436e852b]" name="testOpenCompletedTaskTest" duration-ms="51349" started-at="2018-04-18T13:33:05Z" finished-at="2018-04-18T13:33:57Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Title is matching actiTIME - Login]]>
+            </line>
+            <line>
+              <![CDATA[Title is matching actiTIME - Enter Time-Track]]>
+            </line>
+            <line>
+              <![CDATA[Title is matching actiTIME - Task List]]>
+            </line>
+            <line>
+              <![CDATA[Element is present]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testOpenCompletedTaskTest -->
+        <test-method status="PASS" signature="postCondition(org.testng.ITestResult)[pri:0, instance:com.actitime.tests.OpenCompletedTask@436e852b]" name="postCondition" is-config="true" duration-ms="1856" started-at="2018-04-18T13:33:57Z" finished-at="2018-04-18T13:33:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testOpenCompletedTaskTest status=SUCCESS method=OpenCompletedTask.testOpenCompletedTaskTest()[pri:0, instance:com.actitime.tests.OpenCompletedTask@436e852b] output=Title is matching actiTIME - Login]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postCondition -->
+      </class> <!-- com.actitime.tests.OpenCompletedTask -->
+      <class name="com.actitime.tests.VerifyActitimeVersionTest">
+        <test-method status="PASS" signature="preCondition(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.actitime.tests.VerifyActitimeVersionTest@1d8d30f7]" name="preCondition" is-config="true" duration-ms="22985" started-at="2018-04-18T13:34:42Z" finished-at="2018-04-18T13:35:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://localhost:4444/wd/hub/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[http://localhost/login.do]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preCondition -->
+        <test-method status="PASS" signature="testVerifyVersion()[pri:0, instance:com.actitime.tests.VerifyActitimeVersionTest@1d8d30f7]" name="testVerifyVersion" duration-ms="403" started-at="2018-04-18T13:35:05Z" finished-at="2018-04-18T13:35:05Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Title is matching actiTIME - Login]]>
+            </line>
+            <line>
+              <![CDATA[Element is present]]>
+            </line>
+            <line>
+              <![CDATA[version is matching : Actual version is actiTIME 2017.4 Expected version is actiTIME 2017.4]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testVerifyVersion -->
+        <test-method status="PASS" signature="postCondition(org.testng.ITestResult)[pri:0, instance:com.actitime.tests.VerifyActitimeVersionTest@1d8d30f7]" name="postCondition" is-config="true" duration-ms="3699" started-at="2018-04-18T13:35:05Z" finished-at="2018-04-18T13:35:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testVerifyVersion status=SUCCESS method=VerifyActitimeVersionTest.testVerifyVersion()[pri:0, instance:com.actitime.tests.VerifyActitimeVersionTest@1d8d30f7] output=Title is matching actiTIME - Login]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postCondition -->
+      </class> <!-- com.actitime.tests.VerifyActitimeVersionTest -->
+      <class name="com.actitime.tests.InvalidLoginTest">
+        <test-method status="PASS" signature="preCondition(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.actitime.tests.InvalidLoginTest@27808f31]" name="preCondition" is-config="true" duration-ms="68907" started-at="2018-04-18T13:31:05Z" finished-at="2018-04-18T13:32:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://localhost:4444/wd/hub/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[http://localhost/login.do]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preCondition -->
+        <test-method status="PASS" signature="testInvalidLogin()[pri:0, instance:com.actitime.tests.InvalidLoginTest@27808f31]" name="testInvalidLogin" duration-ms="25245" started-at="2018-04-18T13:32:14Z" finished-at="2018-04-18T13:32:39Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Title is matching actiTIME - Login]]>
+            </line>
+            <line>
+              <![CDATA[---------]]>
+            </line>
+            <line>
+              <![CDATA[Element is present]]>
+            </line>
+            <line>
+              <![CDATA[message is matchingUsername or Password is invalid. Please try again.]]>
+            </line>
+            <line>
+              <![CDATA[-------------]]>
+            </line>
+            <line>
+              <![CDATA[Element is present]]>
+            </line>
+            <line>
+              <![CDATA[message is matchingUsername or Password is invalid. Please try again.]]>
+            </line>
+            <line>
+              <![CDATA[-------------]]>
+            </line>
+            <line>
+              <![CDATA[Element is present]]>
+            </line>
+            <line>
+              <![CDATA[message is matchingUsername or Password is invalid. Please try again.]]>
+            </line>
+            <line>
+              <![CDATA[-------------]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testInvalidLogin -->
+        <test-method status="PASS" signature="postCondition(org.testng.ITestResult)[pri:0, instance:com.actitime.tests.InvalidLoginTest@27808f31]" name="postCondition" is-config="true" duration-ms="2614" started-at="2018-04-18T13:32:39Z" finished-at="2018-04-18T13:32:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testInvalidLogin status=SUCCESS method=InvalidLoginTest.testInvalidLogin()[pri:0, instance:com.actitime.tests.InvalidLoginTest@27808f31] output=Title is matching actiTIME - Login]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postCondition -->
+      </class> <!-- com.actitime.tests.InvalidLoginTest -->
+      <class name="com.actitime.tests.VerifyBuildNumberTest">
+        <test-method status="PASS" signature="preCondition(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.actitime.tests.VerifyBuildNumberTest@3e57cd70]" name="preCondition" is-config="true" duration-ms="22094" started-at="2018-04-18T13:35:09Z" finished-at="2018-04-18T13:35:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://localhost:4444/wd/hub/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[http://localhost/login.do]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preCondition -->
+        <test-method status="PASS" signature="testVerifyBuild()[pri:0, instance:com.actitime.tests.VerifyBuildNumberTest@3e57cd70]" name="testVerifyBuild" duration-ms="44041" started-at="2018-04-18T13:35:31Z" finished-at="2018-04-18T13:36:15Z">
+          <reporter-output>
+            <line>
+              <![CDATA[(build 40065)]]>
+            </line>
+            <line>
+              <![CDATA[Title is matching actiTIME - Login]]>
+            </line>
+            <line>
+              <![CDATA[Title is matching ]]>
+            </line>
+            <line>
+              <![CDATA[Element is present]]>
+            </line>
+            <line>
+              <![CDATA[Element is present]]>
+            </line>
+            <line>
+              <![CDATA[Element is present]]>
+            </line>
+            <line>
+              <![CDATA[(build 40065)]]>
+            </line>
+            <line>
+              <![CDATA[(build 40065)]]>
+            </line>
+            <line>
+              <![CDATA[bulidnum is matching Actual Build number is (build 40065) Expected B uild number is (build 40065)]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testVerifyBuild -->
+        <test-method status="PASS" signature="postCondition(org.testng.ITestResult)[pri:0, instance:com.actitime.tests.VerifyBuildNumberTest@3e57cd70]" name="postCondition" is-config="true" duration-ms="2383" started-at="2018-04-18T13:36:15Z" finished-at="2018-04-18T13:36:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testVerifyBuild status=SUCCESS method=VerifyBuildNumberTest.testVerifyBuild()[pri:0, instance:com.actitime.tests.VerifyBuildNumberTest@3e57cd70] output=(build 40065)]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postCondition -->
+      </class> <!-- com.actitime.tests.VerifyBuildNumberTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

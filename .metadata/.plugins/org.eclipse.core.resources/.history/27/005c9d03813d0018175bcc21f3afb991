@@ -1,0 +1,11 @@
+package com.actitime.generics;
+
+public class BaseTest implements IAutoConstant {
+
+	public void preCondition() {
+		System.setProperty(chrome_key, chrome_value);
+	}
+	public void postCondition() {
+		
+	}
+}

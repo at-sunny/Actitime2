@@ -1,0 +1,15 @@
+package com.actitime.tests;
+
+import org.testng.annotations.Test;
+
+import com.actitime.generics.BaseTest;
+
+public class ValidLoginLogout extends BaseTest {
+		@Test
+		public void TestLogin()
+		{
+			
+		}
+		
+	
+}

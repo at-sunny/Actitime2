@@ -1,0 +1,18 @@
+package com.actitime.tests;
+
+import org.testng.annotations.Test;
+
+import com.actitime.generics.ExcelData;
+import com.actitime.generics.IAutoConstant;
+
+public class ValidLoginLgoutTest implements IAutoConstant {
+
+	@Test
+	public void testvalidLoginLogout()
+	{
+		String LoginTitle = ExcelData.getData(file_path, "login", 1, 2);
+		String username = ExcelData.getData(file_path, "login", 1, 0);
+		String password = ExcelData.getData(file_path,"login", 1, 1);
+		String timeTrackTitle = ExcelData.getData(file_path, "entertimetrack",1, 0);
+	}
+}

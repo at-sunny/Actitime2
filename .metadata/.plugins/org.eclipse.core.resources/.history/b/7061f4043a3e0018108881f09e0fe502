@@ -1,0 +1,25 @@
+package com.actitime.tests;
+
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
+import org.testng.annotations.Test;
+
+import com.actitime.generics.BaseTest;
+import com.actitime.pages.LoginPage;
+import com.actitime.pages.BasePage;
+
+public class ValidLoginLogout extends BaseTest {
+		@Test
+		public void TestLogin()
+		{
+			LoginPage al = new LoginPage(driver);
+			al.setUN("admin");
+			al.setPW("manager");
+			al.clickLogin();
+			WebDriverWait wait = new WebDriverWait(driver, 10);
+			wait.until(ExpectedConditions.titleContains("actiTIME"));
+			al.clickLogout();
+		}
+		
+	
+}

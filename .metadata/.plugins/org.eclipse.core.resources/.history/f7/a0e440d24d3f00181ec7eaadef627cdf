@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name = "suite">
+<test name ="TestA">
+<Parameter name = "city" value = "Bangalore" /> 
+<Parameter name = "area" value = "Basavanagudi" />
+<classes>
+<class name = "qsp.DemoTest" />
+</classes>
+</test>
+</suite>

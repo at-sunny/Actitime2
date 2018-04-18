@@ -1,0 +1,22 @@
+package com.actitime.tests;
+
+import org.testng.annotations.Test;
+
+import com.actitime.generics.BaseTest;
+import com.actitime.pages.ActitimeLogin;
+import com.actitime.pages.BasePage;
+
+public class ValidLoginLogout extends BaseTest {
+		@Test
+		public void TestLogin()
+		{
+			ActitimeLogin al = new ActitimeLogin(driver);
+			al.setUN("admin");
+			al.setPW("manager");
+			al.clickLogin();
+			//BasePage bp = new BasePage();
+			BasePage.verifyTitle("actiTIME - Enter Time-Track");
+		}
+		
+	
+}

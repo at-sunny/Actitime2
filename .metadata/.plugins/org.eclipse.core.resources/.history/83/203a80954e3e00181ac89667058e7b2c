@@ -1,0 +1,18 @@
+package com.actitime.pages;
+
+import org.openqa.selenium.WebElement;
+
+import com.actitime.generics.Basepage;
+
+public class EnterTimeTrackPage extends Basepage {
+	@FindBy(id = "logoutlink")
+	private WebElement logoutBTN;
+	
+	public EnterTimeTrackPage(WebDriver driver)
+	{
+		super(driver);
+		
+	}
+
+	
+}

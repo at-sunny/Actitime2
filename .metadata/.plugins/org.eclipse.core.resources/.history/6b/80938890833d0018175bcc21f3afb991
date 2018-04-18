@@ -1,0 +1,10 @@
+package com.actitime.generics;
+
+import org.openqa.selenium.TakesScreenshot;
+
+public class GenericUtils {
+
+	public static void getScreenshot(WebDriver driver) {
+		TakeScreenshot ts = (TakesScreenshot)driver;
+	}
+}
