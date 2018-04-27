@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Test(failed)</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>0/0/1</td>
+<td>Tests passed/Failed/Skipped:</td><td>2/0/0</td>
 </tr><tr>
-<td>Started on:</td><td>Tue Apr 17 14:15:18 IST 2018</td>
+<td>Started on:</td><td>Fri Apr 27 23:15:40 IST 2018</td>
 </tr>
-<tr><td>Total time:</td><td>0 seconds (51 ms)</td>
+<tr><td>Total time:</td><td>308 seconds (308418 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -67,108 +67,47 @@ function toggleAllBoxes() {
 </tr>
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
-<table width='100%' border='1' class='invocation-failed'>
-<tr><td colspan='4' align='center'><b>FAILED CONFIGURATIONS</b></td></tr>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
 <td width="30%"><b>Exception</b></td>
 <td width="10%"><b>Time (seconds)</b></td>
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='com.actitime.tests.VerifyBuildNumberTest.preCondition()'><b>preCondition</b><br>Test class: com.actitime.tests.VerifyBuildNumberTest</td>
-<td><div><pre>org.testng.TestNGException: 
-Parameter &apos;nodeurl&apos; is required by BeforeMethod on method preCondition but has not been marked @Optional or defined
-in E:\Sunny_javapractise\Actitime\Actitime2\test-output\testng-failed.xml
-... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1293618474", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1293618474'><pre>org.testng.TestNGException: 
-Parameter &apos;nodeurl&apos; is required by BeforeMethod on method preCondition but has not been marked @Optional or defined
-in E:\Sunny_javapractise\Actitime\Actitime2\test-output\testng-failed.xml
-	at org.testng.internal.Parameters.createParams(Parameters.java:290)
-	at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:359)
-	at org.testng.internal.Parameters.createParameters(Parameters.java:620)
-	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:190)
-	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:209)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:520)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-	at org.testng.TestRunner.privateRun(TestRunner.java:648)
-	at org.testng.TestRunner.run(TestRunner.java:505)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-	at org.testng.TestNG.runSuites(TestNG.java:1049)
-	at org.testng.TestNG.run(TestNG.java:1017)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-</pre></div></td>
-<td>0</td>
-<td>com.actitime.tests.VerifyBuildNumberTest@7a187f14</td></tr>
-</table><p>
-<table width='100%' border='1' class='invocation-skipped'>
-<tr><td colspan='4' align='center'><b>SKIPPED CONFIGURATIONS</b></td></tr>
-<tr><td><b>Test method</b></td>
-<td width="30%"><b>Exception</b></td>
-<td width="10%"><b>Time (seconds)</b></td>
-<td><b>Instance</b></td>
-</tr>
-<tr>
-<td title='com.actitime.tests.VerifyBuildNumberTest.postCondition()'><b>postCondition</b><br>Test class: com.actitime.tests.VerifyBuildNumberTest</td>
+<td title='com.actitime.tests.VerifyBuildNumberTest.testVerifyBuild()'><b>testVerifyBuild</b><br>Test class: com.actitime.tests.VerifyBuildNumberTest<br/>
+<a href="#Output-154988899" onClick='toggleBox("Output-154988899", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-154988899" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-154988899">
+(build 40065)<br/>
+Title is matching actiTIME - Login<br/>
+Title is matching <br/>
+Element is present<br/>
+Element is present<br/>
+Element is present<br/>
+(build 40065)<br/>
+(build 40065)<br/>
+bulidnum is matching Actual Build number is (build 40065) Expected B uild number is (build 40065)<br/>
+</div>
+</td>
 <td></td>
-<td>0</td>
-<td>com.actitime.tests.VerifyBuildNumberTest@7a187f14</td></tr>
-</table><p>
-<table width='100%' border='1' class='invocation-skipped'>
-<tr><td colspan='4' align='center'><b>SKIPPED TESTS</b></td></tr>
-<tr><td><b>Test method</b></td>
-<td width="30%"><b>Exception</b></td>
-<td width="10%"><b>Time (seconds)</b></td>
-<td><b>Instance</b></td>
-</tr>
+<td>79</td>
+<td>com.actitime.tests.VerifyBuildNumberTest@631330c</td></tr>
 <tr>
-<td title='com.actitime.tests.VerifyBuildNumberTest.testVerifyBuild()'><b>testVerifyBuild</b><br>Test class: com.actitime.tests.VerifyBuildNumberTest</td>
-<td><div><pre>org.testng.TestNGException: 
-Parameter &apos;nodeurl&apos; is required by BeforeMethod on method preCondition but has not been marked @Optional or defined
-in E:\Sunny_javapractise\Actitime\Actitime2\test-output\testng-failed.xml
-... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace614685048", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace614685048'><pre>org.testng.TestNGException: 
-Parameter &apos;nodeurl&apos; is required by BeforeMethod on method preCondition but has not been marked @Optional or defined
-in E:\Sunny_javapractise\Actitime\Actitime2\test-output\testng-failed.xml
-	at org.testng.internal.Parameters.createParams(Parameters.java:290)
-	at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:359)
-	at org.testng.internal.Parameters.createParameters(Parameters.java:620)
-	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:190)
-	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:209)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:520)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-	at org.testng.TestRunner.privateRun(TestRunner.java:648)
-	at org.testng.TestRunner.run(TestRunner.java:505)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-	at org.testng.TestNG.runSuites(TestNG.java:1049)
-	at org.testng.TestNG.run(TestNG.java:1017)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-</pre></div></td>
-<td>0</td>
-<td>com.actitime.tests.VerifyBuildNumberTest@7a187f14</td></tr>
+<td title='com.actitime.tests.VerifyActitimeVersionTest.testVerifyVersion()'><b>testVerifyVersion</b><br>Test class: com.actitime.tests.VerifyActitimeVersionTest<br/>
+<a href="#Output-722417467" onClick='toggleBox("Output-722417467", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-722417467" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-722417467">
+Title is matching actiTIME - Login<br/>
+Element is present<br/>
+version is matching : Actual version is actiTIME 2017.4 Expected version is actiTIME 2017.4<br/>
+</div>
+</td>
+<td></td>
+<td>4</td>
+<td>com.actitime.tests.VerifyActitimeVersionTest@42f93a98</td></tr>
 </table><p>
 </body>
 </html>
