@@ -37,7 +37,8 @@ public class Basepage{
 		}
 		catch(Exception e) {
 			Reporter.log("Title is not matching" , true);
-			Reporter.log("Actual title is  " + driver.getTitle()+"Expected tiltle is "+ eTitle,true);
+
+
 			Assert.fail();
 		}
 	}
