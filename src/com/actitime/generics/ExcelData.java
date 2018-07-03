@@ -20,9 +20,9 @@ public class ExcelData {
 			File file = new File(pathname);
 			FileInputStream fis = new FileInputStream(file);
 			
-			//to get the workboo
+			//to get the workbook
 			Workbook wb = WorkbookFactory.create(fis);
-			String data = wb.getSheet(sheetname).getRow(rn).getCell(cn).toString();
+			String data = wb.getSheet(sheetname).getRow(rn).getCell(cn).getStringCellValue();
 			return data;
 		}
 		

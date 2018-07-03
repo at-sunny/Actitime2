@@ -37,8 +37,6 @@ public class Basepage{
 		}
 		catch(Exception e) {
 			Reporter.log("Title is not matching" , true);
-
-
 			Assert.fail();
 		}
 	}

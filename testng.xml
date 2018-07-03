@@ -2,13 +2,12 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Suite">
   <test thread-count="5" name="Test">
-    <parameter name = "nodeurl" value = "http://localhost:4444/wd/hub/"  />
-    <parameter name = "browser" value = "chrome" />
-    <parameter name = "appurl"  value = "http://localhost/login.do" />   
-    <packages>
-    <package name = "com.actitime.generics" />
-    <package name= "com.actitime.pages" />
-    <package name= "com.actitime.tests" />
-    </packages>
-  </test>
-</suite> 
+    <classes>
+      <class name="com.actitime.tests.VerifyActitimeVersionTest"/>
+      <class name="com.actitime.tests.VerifyBuildNumberTest"/>
+      <class name="com.actitime.tests.InvalidLoginTest"/>
+      <class name="com.actitime.tests.OpenCompletedTask"/>
+      <class name="com.actitime.tests.ValidLoginLogoutTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

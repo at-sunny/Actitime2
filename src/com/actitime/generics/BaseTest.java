@@ -6,6 +6,7 @@ import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.remote.RemoteWebDriver;
 import org.testng.ITestResult;
@@ -17,23 +18,21 @@ public abstract class BaseTest implements IAutoConstant {
 
 	public WebDriver driver;
 	
-	@Parameters({"nodeurl","browser","appurl"})
 	@BeforeMethod
-	public void preCondition(String nodeurl,String browser,String appurl) throws MalformedURLException {
-//		System.setProperty(chrome_key,chrome_value);
-//		System.setProperty(gecko_key, gecko_value);
-//		driver = new ChromeDriver();
-//		driver.manage().window().maximize();
-//	    driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-//	    driver.get("http://localhost/login.do");
-		
-		URL url = new URL(nodeurl);
-		DesiredCapabilities dc = new DesiredCapabilities();
-		dc.setBrowserName(browser);
-		driver = new RemoteWebDriver(url,dc);
+	public void preCondition()  {
+		System.setProperty(chrome_key,chrome_value);
+		driver = new ChromeDriver();
 		driver.manage().window().maximize();
 	    driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-		driver.get(appurl);
+	    driver.get("http://localhost/login.do");
+		
+//		URL url = new URL(nodeurl);
+//		DesiredCapabilities dc = new DesiredCapabilities();
+//		dc.setBrowserName(browser);
+//		driver = new RemoteWebDriver(url,dc);
+//		driver.manage().window().maximize();
+//	    driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+//		driver.get(appurl);
 	}
 	
 	
@@ -43,7 +42,7 @@ public abstract class BaseTest implements IAutoConstant {
 		String name = res.getMethod().getMethodName();
 		if(status == 2)
 		{
-			//GenericUtils.getScreenshot();
+			GenericUtils.getScreenshot(driver, name);
 		}
 		
 		driver.close();

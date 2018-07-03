@@ -65,8 +65,5 @@ public class LoginPage extends Basepage {
 		return aVersion;
 	}
 	
-	
-	
-
 }
 

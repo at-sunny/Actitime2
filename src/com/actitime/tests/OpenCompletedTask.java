@@ -4,6 +4,7 @@ package com.actitime.tests;
 import org.testng.annotations.Test;
 import org.testng.annotations.Test;
 import org.testng.annotations.Test;
+import org.testng.annotations.Test;
 
 import com.actitime.generics.BaseTest;
 import com.actitime.generics.ExcelData;

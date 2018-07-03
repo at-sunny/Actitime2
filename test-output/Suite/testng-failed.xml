@@ -2,24 +2,14 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
   <test thread-count="5" name="Test(failed)">
-    <parameter name="nodeurl" value="http://localhost:4444/wd/hub/"/>
-    <parameter name="browser" value="chrome"/>
-    <parameter name="appurl" value="http://localhost/login.do"/>
     <classes>
-      <class name="com.actitime.tests.VerifyBuildNumberTest">
+      <class name="com.actitime.tests.ValidLoginLogoutTest">
         <methods>
           <include name="preCondition"/>
-          <include name="postCondition"/>
-          <include name="testVerifyBuild"/>
-        </methods>
-      </class> <!-- com.actitime.tests.VerifyBuildNumberTest -->
-      <class name="com.actitime.tests.VerifyActitimeVersionTest">
-        <methods>
-          <include name="preCondition"/>
-          <include name="testVerifyVersion"/>
+          <include name="testvalidLoginLogout"/>
           <include name="postCondition"/>
         </methods>
-      </class> <!-- com.actitime.tests.VerifyActitimeVersionTest -->
+      </class> <!-- com.actitime.tests.ValidLoginLogoutTest -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

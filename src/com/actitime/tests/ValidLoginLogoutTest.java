@@ -2,6 +2,7 @@ package com.actitime.tests;
 
 import org.testng.annotations.Test;
 import org.testng.annotations.Test;
+import org.testng.annotations.Test;
 import org.testng.Reporter;
 import org.testng.annotations.Test;
 
@@ -46,7 +47,9 @@ public class ValidLoginLogoutTest extends BaseTest{
 		//click on logout
 		ep.clickonLogout();
 		
-		// verify the login page
-		ep.verifyTheTitle(loginTitle);
+		Thread.sleep(3000);
+		
+		lp.verifyTheTitle(loginTitle);
+		
 	}
 }
